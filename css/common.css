@@ -1,0 +1,126 @@
+@charset "utf-8";
+html{  font-size:100px;}
+body{
+    max-width:640px;
+    min-width:320px;
+    padding-bottom:50px;
+    margin:auto;
+    font-size:16px;
+}
+
+/*header部分开始*/
+header.header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+    width:6.4rem;
+    height:0.3rem;
+    z-index:999;
+}
+
+ header .content{
+     position:relative;
+     width:6.4rem;
+     height:0.38rem;
+     margin:0 auto;
+}
+
+header.header .content form input{
+    margin:0.05rem 0.1rem;
+    width:5.7rem;
+    line-height:0.3rem;
+    text-indent:0.8rem;
+    outline:none;
+    font-size:0.14rem;
+    border-radius:0.2rem;
+    background:url('../images/search/jd.png')no-repeat 0.2rem center/auto 60%,
+   #fff url('../images/search/search.png')no-repeat 0.5rem center/auto 60%;
+}
+
+ header.header  section a{
+     position:absolute;
+     right:0.1rem;
+     top:0;
+     color:#fff;
+     /*width:0.4rem;*/
+     line-height:0.4rem;
+     font-size:0.14rem;
+}
+/*header部分结束*/
+/*footer部分开始*/
+footer .bottom{
+    position:fixed;
+    bottom:0;
+    width:6.4rem;
+}
+footer .bottom ul{
+    display:flex;
+    justify-content:space-between;
+    background-color:#fff;
+}
+footer .bottom ul li{
+    width:1.28rem;
+    height:0.54rem;
+    text-align:center;
+}
+footer .bottom ul li img{
+    width:0.7rem;
+    height:auto;
+}
+/*footer部分结束*/
+/*content部分 公共样式*/
+strong{
+    display:block;
+    height:0.34rem;
+    font-size:0.25rem;
+}
+section.con p{
+     width:2rem;
+     height:0.3rem;
+    color:#999;
+    font:bold 0.2rem/1.5 "";
+}
+ h2{
+     width:6.4rem;
+     height:0.48rem;
+     padding:0.05rem 0;
+     text-align:center;
+     background:url('../images/part4/floor-tit.png')no-repeat 0 0/6.4rem 0.66rem;
+ }
+ h2 img{
+     width:1.15rem;
+     height:auto;
+ }
+
+em{
+    display:block;
+    height:0.32rem;
+    line-height:0.32rem;
+    color:#fff;
+    font-size:0.12rem;
+    text-align:center;
+    font-style:normal;
+    background-color:deeppink;
+}
+.content  ul{
+    display:flex;
+    justify-content:space-between;
+}
+.content  ul li{
+    padding:0.05rem;
+    width:1.5rem;
+    height:1.96rem;
+}
+ .bottom ul li strong{
+    width:1.46rem;
+}
+ /*.content ul li p{*/
+    /*width:1.46rem;*/
+/*}*/
+ .content ul li img{
+    width:1.42rem;
+    height:auto;
+}
+
